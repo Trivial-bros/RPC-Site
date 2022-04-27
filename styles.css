@@ -1,0 +1,42 @@
+body {
+    background-image: url(/BG.svg);  
+    background-size: 100%; 
+}
+button {
+    font-size: 60px;
+    color: white;
+}
+.flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    margin-top: 8vh;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerAL {
+    display: flex;
+    justify-items: center;
+}
+
+.circle {
+    height: 160px;
+    width: 160px;
+    background-color: rgb(17, 1, 37);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.line {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(121, 165, 247);
+    height: 5px;
+}
